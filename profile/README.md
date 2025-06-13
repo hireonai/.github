@@ -79,9 +79,11 @@ Explore the core **components powering HireOn.AI** across these dedicated reposi
 | Frontend         | Contains the sleek, responsive UI built with Next.js and shadcn/ui, designed for an intuitive user experience. | [Frontend Repo](https://github.com/hireonai/frontend-hireonai)      |
 | Backend          | The backbone RESTful API built with HapiJS, handling authentication, data processing, and AI service integration. | [Backend Repo](https://github.com/hireonai/backend-hireonai)        |
 
-## 🏗️ System Architecture
+## 🏗️ System Design
 
-Our overall system design is coming soon — stay tuned for a detailed look at how all the pieces work together seamlessly to power HireOn.AI’s smart career platform.
+This system design outlines the **architecture of HireOn.AI**, the frontend combining a React + Next.js, styled with Tailwind CSS and Shadcn UI, deployed via Google Cloud Run. The backend, built with Node.js + Hapi.js, exposes secured APIs using JWT tokens and manages data storage with MongoDB Atlas and Google Cloud Storage (Object Storage). Core ML services are containerized in Docker and served through Google Cloud Platform, using Vertex AI Gemini Flash 2.5 for CV analysis, job matching, and personalized cover letter generation. The job recommendation engine utilizes Chroma vector search with Gecko-2 embeddings for high-precision semantic matching. Job data is enriched through scheduled scraping, categorized jobs and salary-estimated via a TensorFlow NLP model. This processed data is then used by downstream services to improve relevance and personalization.
+
+![HireOn Systems Design](../img/SystemsDesign.png)
 
 ## 👥 Our Team — CC25-CF078
 
