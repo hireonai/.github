@@ -54,7 +54,7 @@ According to [Statistics Indonesia (BPS), August 2024](https://data.goodstats.id
   - Identifies areas for improvement
   - Analyzes each CV section (work experience, education, skills, achievements)
 
-### 🔗 Recommendation Engine
+### 🔮 Recommendation Engine
 
 - **Job Recommendations**: Provides personalized job recommendations based on:
   - Semantic understanding of CV content
@@ -62,6 +62,17 @@ According to [Statistics Indonesia (BPS), August 2024](https://data.goodstats.id
   - Similarity scoring and ranking
 
 - **CV Embeddings**: Stores and retrieves vector embeddings of user CVs for efficient similarity searching
+
+### 💼 Predictive AI Services
+
+- **Job Category Classification:** Automatically classifies all job postings into predefined categories using a TensorFlow-based NLP model:
+  - Ensures consistent tagging of job listings for better UX
+  - Lays the foundation for accurate filtering and recommendation
+
+- **Salary Prediction:** Predicts estimated salary ranges from job descriptions using a regression-based NLP model:
+  - Provides candidates with data-driven salary insights
+  - Supports smarter job decisions and expectation alignment
+
 
 ### 🖥️ Seamless, Smart, and User-Friendly
 
